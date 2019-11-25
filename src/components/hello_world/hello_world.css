@@ -1,0 +1,5 @@
+.hello_world {
+  &__sub {
+    color: blue;
+  }
+}

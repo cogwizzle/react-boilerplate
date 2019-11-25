@@ -1,0 +1,39 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for starting a new react project.",
+  "main": "public/index.html",
+  "repository": "https://github.com/jfehrman/react-boilerplate.git",
+  "author": "Joe Fehrman <joseph.fehrman@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "jest": "^24.9.0",
+    "plop": "^2.5.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.2",
+    "postcss": "^7.0.23",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.1.3"
+  }
+}
