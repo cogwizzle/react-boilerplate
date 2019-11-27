@@ -1,11 +1,7 @@
 import * as React from 'react'
 import './hello_world.css'
 
-interface iHelloWorldProps {
-
-}
-
-const HelloWorld: React.FunctionComponent<iHelloWorldProps> = () => {
+const HelloWorld = () => {
   // State
 
   // Effects
@@ -18,5 +14,4 @@ const HelloWorld: React.FunctionComponent<iHelloWorldProps> = () => {
 }
 
 export default HelloWorld
-export { iHelloWorldProps }
 
