@@ -1,7 +1,9 @@
 import * as React from 'react'
 import './hello_world.css'
 
-const HelloWorld = () => {
+interface iHelloWorldProps {}
+
+const HelloWorld: React.FunctionComponent<iHelloWorldProps> = () => {
   // State
 
   // Effects
