@@ -3,7 +3,7 @@ import './hello_world.css';
 
 const HelloWorld = () => (
   <div className="hello_world">
-    Hello World<span class="hello_world__sub">!</span>
+    Hello World<span className="hello_world__sub">!</span>
   </div>
 );
 
