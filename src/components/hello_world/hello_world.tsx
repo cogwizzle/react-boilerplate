@@ -9,7 +9,7 @@ const HelloWorld: React.FunctionComponent<iHelloWorldProps> = () => {
   // Effects
 
   return (
-    <div className="hello_world">
+    <div className="hello_world shadow">
       New HelloWorld <span className="hello_world__sub">component.</span>
     </div>
   )
