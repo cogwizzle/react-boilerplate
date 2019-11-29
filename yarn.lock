@@ -5524,8 +5524,8 @@ react-dom@^16.12.0:
     scheduler "^0.18.0"
 
 react-generator@jfehrman/react-generator:
-  version "0.0.3"
-  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/a4baba3fe4e4b105de04e9f8414d8e6541e683c7"
+  version "0.0.5"
+  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/6309a566c48ccc2c06876b55aa701c4ae6b9786f"
   dependencies:
     app-root-path "^3.0.0"
     fs "^0.0.1-security"
