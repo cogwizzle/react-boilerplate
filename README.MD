@@ -6,7 +6,7 @@ Create-React-App is great, but it is also really large and really confusing.  It
 # Get Started
 React Boilerplate uses a library called [degit](https://github.com/Rich-Harris/degit) to generate new React projects.  You will need to install this globally if you haven't already done so.
 ```bash
-yarn add -g degit
+yarn global add degit
 ```
 
 Create the directory you want to generate the project into.  Then change directory to that new directory.
