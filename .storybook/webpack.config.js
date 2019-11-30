@@ -7,7 +7,7 @@ module.exports = ({ config, mode }) => {
   config.module.rules = config.module.rules.filter(({ test }) => !isTestToBeExcluded(test));
 
   config.module.rules.push({
-    test: /\.css$/,
+    test: /.css$/,
     use: [
       'style-loader',
       'css-loader',
@@ -26,7 +26,7 @@ module.exports = ({ config, mode }) => {
   });
 
   config.module.rules.push({
-    test: /\.ts(x)?$/,
+    test: /.[t|j]s(x)?$/,
     use: [
       'ts-loader',
       {

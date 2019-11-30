@@ -11481,7 +11481,7 @@ react-focus-lock@^1.18.3:
 
 react-generator@jfehrman/react-generator#enhancement/storybook-webpack:
   version "0.0.5"
-  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/1bc49876c9574bbd824fbd6544846fc5c069639a"
+  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/567a217f53e9a1f6bcb6895e7e2c4fdd5fb24d20"
   dependencies:
     app-root-path "^3.0.0"
     fs "^0.0.1-security"
