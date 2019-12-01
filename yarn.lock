@@ -11562,8 +11562,8 @@ react-focus-lock@^1.18.3:
     react-clientside-effect "^1.2.0"
 
 react-generator@jfehrman/react-generator:
-  version "0.0.6"
-  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/374926b9699d5d231b5049140b817831c42ba4bf"
+  version "0.0.7"
+  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/14cdabe5369957e9328ceae99ab421e57036cafe"
   dependencies:
     app-root-path "^3.0.0"
     fs "^0.0.1-security"
