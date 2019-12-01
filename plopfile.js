@@ -1,6 +1,4 @@
-const useReactGenerators = require('react-generator');
+const useReactGenerators = require('react-generator')
 
-module.exports = function(plop) {
-  useReactGenerators(plop);
-};
+module.exports = plop => useReactGenerators(plop)
 
