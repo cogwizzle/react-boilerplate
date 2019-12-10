@@ -11562,12 +11562,13 @@ react-focus-lock@^1.18.3:
     react-clientside-effect "^1.2.0"
 
 react-generator@jfehrman/react-generator:
-  version "0.0.7"
-  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/14cdabe5369957e9328ceae99ab421e57036cafe"
+  version "0.0.14"
+  resolved "https://codeload.github.com/jfehrman/react-generator/tar.gz/bfeae9bdb6d596fb4f1c1b6939db4c0211684ee7"
   dependencies:
     app-root-path "^3.0.0"
     fs "^0.0.1-security"
     plop "^2.5.3"
+    serialize-javascript "2.1.1"
 
 react-helmet-async@^1.0.2:
   version "1.0.4"
@@ -12490,6 +12491,11 @@ sentence-case@^2.1.0:
   dependencies:
     no-case "^2.2.0"
     upper-case-first "^1.1.2"
+
+serialize-javascript@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.1.tgz#952907a04a3e3a75af7f73d92d15e233862048b2"
+  integrity sha512-MPLPRpD4FNqWq9tTIjYG5LesFouDhdyH0EPY3gVK4DRD5+g4aDqdNSzLIwceulo3Yj+PL1bPh6laE5+H6LTcrQ==
 
 serialize-javascript@^1.7.0:
   version "1.9.1"

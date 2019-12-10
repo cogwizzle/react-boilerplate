@@ -2,7 +2,7 @@
 
 exports[`Renders 1`] = `
 <div
-  className="hello_world"
+  className="hello_world shadow"
 >
   New HelloWorld 
   <span
