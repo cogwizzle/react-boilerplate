@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  margin: 0;
+  padding: 0;
+
+  &__header {
+    @apply bg-blue-700 text-white font-bold flex flex-row p-2;
+
+    &__title {
+      @apply text-3xl flex-1;
+    }
+
+    ul {
+      @apply flex flex-row items-center justify-center;
+
+      li {
+        @apply ml-2
+      }
+    }
+  }
+
+  &__content {
+    @apply m-2
+  }
+}
+

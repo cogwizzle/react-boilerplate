@@ -1,9 +1,9 @@
 import * as React from 'react'
 import * as ReactDom from 'react-dom'
-import HelloWorld from './components/hello_world/hello_world.tsx'
+import App from './components/app/app'
 
 ReactDom.render(
-  (<HelloWorld />),
+  (<App />),
   document.querySelector('.main')
 )
 

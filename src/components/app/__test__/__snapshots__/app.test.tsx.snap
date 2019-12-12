@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders 1`] = `
+<div
+  className="app"
+>
+  <header
+    className="app__header"
+  >
+    <div
+      className="app__header__title"
+    >
+      MyApp
+    </div>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+      </li>
+    </ul>
+  </header>
+  <div
+    className="app__content"
+  >
+    <div
+      className="home"
+    >
+      <h3>
+        Welcome to your new React-Boilerplate project!
+      </h3>
+      <p>
+        To learn more about the capabilities of React-Boilerpalte go to the documentation on github.
+      </p>
+    </div>
+  </div>
+</div>
+`;
