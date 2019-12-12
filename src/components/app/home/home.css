@@ -1,4 +1,6 @@
 .home {
-
+  h3 {
+    @apply text-2xl;
+  }
 }
 

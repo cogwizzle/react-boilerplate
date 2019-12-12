@@ -12,7 +12,10 @@ const Home: React.FunctionComponent<iHomeProps> = () => {
 
   return (
     <div className="home">
-      New Home component.
+      <h3>Welcome to your new React-Boilerplate project!</h3>
+      <p>
+        To learn more about the capabilities of React-Boilerpalte go to the documentation on github.
+      </p>
     </div>
   )
 }
