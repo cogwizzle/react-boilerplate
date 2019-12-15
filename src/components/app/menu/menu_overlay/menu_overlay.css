@@ -1,0 +1,13 @@
+.menu_overlay {
+  @apply opacity-25;
+  &--hidden {
+    @apply opacity-0 pointer-events-none;
+  }
+}
+
+.menu_overlay,
+.menu_overlay--hidden{
+  @apply absolute top-0 right-0 left-0 bottom-0 m-0 p-0 bg-black;
+  transition: opacity 0.75s ease;
+}
+
