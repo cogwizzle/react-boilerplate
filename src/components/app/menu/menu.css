@@ -19,7 +19,7 @@
     transition: width 0.75s ease;
 
     li {
-      @apply m-2 cursor-pointer;
+      @apply m-2;
     }
   }
 

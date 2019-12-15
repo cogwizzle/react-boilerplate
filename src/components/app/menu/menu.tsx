@@ -2,18 +2,15 @@ import * as React from 'react'
 import classnames from 'classnames'
 import { Link } from 'react-router-dom'
 import MenuOverlay from './menu_overlay/menu_overlay.tsx'
-import { MdMenu } from 'react-icons/md'
+import { MdMenu, MdKeyboardArrowLeft } from 'react-icons/md'
 import './menu.css'
 
 const { useState } = React
 
 interface MenuProps {
-  alwaysResponsive?: boolean;
 }
 
-const Menu: React.FunctionComponent<MenuProps> = ({
-  alwaysResponsive = false,
-}) => {
+const Menu: React.FunctionComponent<MenuProps> = () => {
   // State
   const [isOpen, setIsOpen] = useState(false)
 
@@ -29,11 +26,7 @@ const Menu: React.FunctionComponent<MenuProps> = ({
         </h1>
         <button
           aria-label="Open and close menu"
-          className={classnames({
-            /* eslint-disable-next-line @typescript-eslint/camelcase */
-            menu__icon: !alwaysResponsive,
-            'menu__icon--responsive': alwaysResponsive,
-          })}
+          className="menu__icon"
           onClick={(): void => setIsOpen(!isOpen)}
           type="button"
         >
@@ -45,6 +38,11 @@ const Menu: React.FunctionComponent<MenuProps> = ({
           'menu__links--open': isOpen,
         })}
         >
+          <li>
+            <button onClick={closeMenu}>
+              <MdKeyboardArrowLeft />
+            </button>
+          </li>
           <li onClick={closeMenu}>
             <Link to="/">Home</Link>
           </li>

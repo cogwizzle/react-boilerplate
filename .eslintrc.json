@@ -21,6 +21,7 @@
     "project": "./tsconfig.json"
   },
   "plugins": [
+    "@typescript-eslint",
     "react"
   ],
   "rules": {
@@ -31,10 +32,6 @@
       "extensions": [".jsx", ".tsx", ".js"]
     }],
     "react/prop-types": "off"
-  },
-  "plugins": [
-    "@typescript-eslint",
-    "react"
-  ]
+  }
 }
 
