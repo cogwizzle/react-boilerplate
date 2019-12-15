@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
 } from 'react-router-dom'
 import Home from './home/home'
 import About from './about/about'
+import Menu from './menu/menu'
 import './app.css'
 
 interface iAppProps {
@@ -21,19 +21,7 @@ const App: React.FunctionComponent<iAppProps> = () => {
   return (
     <div className="app">
       <Router>
-        <header className="app__header">
-          <div className="app__header__title">
-            MyApp
-          </div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </header>
+        <Menu />
         <div className="app__content">
           <Switch>
             <Route path="/about">

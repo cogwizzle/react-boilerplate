@@ -1,0 +1,30 @@
+.menu {
+  @apply flex flex-row bg-blue-500 text-white shadow p-2;
+
+  &__title {
+    @apply flex-1 text-2xl;
+  }
+
+  &__links {
+    @apply w-0 overflow-hidden;
+
+    &--open {
+      @apply w-64;
+    }
+  }
+
+  &__links,
+  &__links--open {
+    @apply fixed right-0 top-0 h-screen z-10 bg-white text-black;
+    transition: width 0.75s ease;
+
+    li {
+      @apply m-2;
+    }
+  }
+
+  &__icon {
+    @apply
+  }
+}
+
