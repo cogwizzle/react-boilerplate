@@ -18,5 +18,14 @@ describe('Render menu overlay', () => {
     const results = component.toJSON()
     expect(results).toMatchSnapshot()
   })
+
+  it('click', () => {
+    const mock = jest.fn()
+    const component = renderer.create(
+      <MenuOverlay isOpen={true} onClick={mock} />
+    )
+    component.root.findByType('div').props.onClick()
+    expect(mock).toHaveBeenCalled()
+  })
 })
 
