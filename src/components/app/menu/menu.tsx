@@ -51,7 +51,7 @@ const Menu: React.FunctionComponent<MenuProps> = () => {
           </li>
         </ul>
       </header>
-      <MenuOverlay isOpen={isOpen} onClick={(event) => setIsOpen(false)} />
+      <MenuOverlay isOpen={isOpen} onClick={closeMenu} />
     </>
   )
 }
