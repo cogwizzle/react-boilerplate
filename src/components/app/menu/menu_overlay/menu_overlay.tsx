@@ -4,7 +4,7 @@ import './menu_overlay.css'
 
 interface MenuOverlayProps {
   isOpen: boolean;
-  onClick?: (event: Event) => void;
+  onClick?: (event: any) => void;
 }
 
 const MenuOverlay: React.FunctionComponent<MenuOverlayProps> = ({
