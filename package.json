@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Boilerplate for starting a new react project.",
   "main": "public/index.html",
   "repository": "https://github.com/jfehrman/react-boilerplate.git",
@@ -32,7 +32,7 @@
     "css-loader": "^3.2.0",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0",
