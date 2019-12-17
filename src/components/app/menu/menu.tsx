@@ -1,16 +1,13 @@
 import * as React from 'react'
 import classnames from 'classnames'
 import { Link } from 'react-router-dom'
-import MenuOverlay from './menu_overlay/menu_overlay'
 import { MdMenu, MdKeyboardArrowLeft } from 'react-icons/md'
+import MenuOverlay from './menu_overlay/menu_overlay'
 import './menu.css'
 
 const { useState } = React
 
-interface MenuProps {
-}
-
-const Menu: React.FunctionComponent<MenuProps> = () => {
+const Menu: React.FunctionComponent<{}> = () => {
   // State
   const [isOpen, setIsOpen] = useState(false)
 
@@ -39,15 +36,15 @@ const Menu: React.FunctionComponent<MenuProps> = () => {
         })}
         >
           <li>
-            <button onClick={closeMenu}>
+            <button type="button" onClick={closeMenu}>
               <MdKeyboardArrowLeft />
             </button>
           </li>
-          <li onClick={closeMenu}>
-            <Link to="/">Home</Link>
+          <li>
+            <Link onClick={closeMenu} to="/">Home</Link>
           </li>
-          <li onClick={closeMenu}>
-            <Link to="/about">About</Link>
+          <li>
+            <Link onClick={closeMenu} to="/about">About</Link>
           </li>
         </ul>
       </header>
