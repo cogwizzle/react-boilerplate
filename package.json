@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Boilerplate for starting a new react project.",
   "main": "public/index.html",
   "repository": "https://github.com/jfehrman/react-boilerplate.git",
