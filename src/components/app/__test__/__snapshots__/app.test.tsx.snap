@@ -43,6 +43,7 @@ exports[`Renders 1`] = `
       <li>
         <button
           onClick={[Function]}
+          type="button"
         >
           <svg
             fill="currentColor"
@@ -64,21 +65,17 @@ exports[`Renders 1`] = `
           </svg>
         </button>
       </li>
-      <li
-        onClick={[Function]}
-      >
+      <li>
         <a
-          href="/"
+          href="#/"
           onClick={[Function]}
         >
           Home
         </a>
       </li>
-      <li
-        onClick={[Function]}
-      >
+      <li>
         <a
-          href="/about"
+          href="#/about"
           onClick={[Function]}
         >
           About
@@ -89,6 +86,7 @@ exports[`Renders 1`] = `
   <div
     className="menu_overlay--hidden"
     onClick={[Function]}
+    role="button"
   />
   <div
     className="app__content"

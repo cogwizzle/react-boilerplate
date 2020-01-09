@@ -41,6 +41,7 @@ Array [
       <li>
         <button
           onClick={[Function]}
+          type="button"
         >
           <svg
             fill="currentColor"
@@ -62,9 +63,7 @@ Array [
           </svg>
         </button>
       </li>
-      <li
-        onClick={[Function]}
-      >
+      <li>
         <a
           href="/"
           onClick={[Function]}
@@ -72,9 +71,7 @@ Array [
           Home
         </a>
       </li>
-      <li
-        onClick={[Function]}
-      >
+      <li>
         <a
           href="/about"
           onClick={[Function]}
@@ -87,6 +84,7 @@ Array [
   <div
     className="menu_overlay--hidden"
     onClick={[Function]}
+    role="button"
   />,
 ]
 `;

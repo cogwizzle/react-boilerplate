@@ -3,11 +3,13 @@
 exports[`Render menu overlay Not isOpen 1`] = `
 <div
   className="menu_overlay--hidden"
+  role="button"
 />
 `;
 
 exports[`Render menu overlay isOpen 1`] = `
 <div
   className="menu_overlay"
+  role="button"
 />
 `;
