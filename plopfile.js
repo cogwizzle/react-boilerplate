@@ -1,9 +1,7 @@
-/* eslint-disable quotes */
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint import/no-extraneous-dependencies: 0 */
+/* eslint-disable */
 const useReactGenerators = require('react-generator')
 
-module.exports = (plop): void => {
+module.exports = (plop) => {
   useReactGenerators(plop)
 
   // Write a functional component generator.
